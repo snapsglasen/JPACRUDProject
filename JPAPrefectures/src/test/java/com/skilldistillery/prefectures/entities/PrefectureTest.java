@@ -45,8 +45,12 @@ class PrefectureTest {
 	@Test
 	void test_Prefecture_entity_mapping() {
 		assertNotNull(pref);
-		assertEquals("Okinawa", pref.getName());
+		assertEquals("Hokkaido", pref.getName());
+		assertEquals("Sapporo", pref.getCapital());
 		
 	}
+	
+	
+
 
 }
