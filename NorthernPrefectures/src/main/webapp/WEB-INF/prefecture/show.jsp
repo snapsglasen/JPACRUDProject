@@ -8,6 +8,14 @@
 </head>
 <body>
 
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="/WEB-INF/index.jsp">Home</a></li>
+
+				</ul>
+			</div>
+
 	<div>
 		<h1>Prefecture Details</h1>
 		<h5>${pref.name}</h5>
@@ -19,6 +27,8 @@
 		</ul>
 	</div>
 	<a href="updated.do?id=${pref.id }" class="btn btn-info" role="button">Update
-			a Prefecture</a>
+		Prefecture</a>
+	<a href="deletePrefecture.do?id=${pref.id }" class="btn btn-info"
+		role="button">Delete Prefecture</a>
 </body>
 </html>

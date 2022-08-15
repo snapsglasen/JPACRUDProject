@@ -33,11 +33,7 @@ public class PrefectureDAOImpl implements PrefectureDAO {
 
 	}
 
-	@Override
-	public Prefecture delete(Prefecture pref) {
-
-		return null;
-	}
+	
 
 	@Override
 	public Prefecture create(Prefecture pref) {
@@ -59,6 +55,19 @@ public class PrefectureDAOImpl implements PrefectureDAO {
 		}
 
 		return updatedPref;
+	}
+
+	@Override
+	public boolean delete (Prefecture pref) {
+		em.remove(pref);
+		//boolean deleted = false;
+//		Prefecture deletePref = em.find(Prefecture.class, pref);
+//
+//		if (deletePref != null) {
+//			em.remove(deletePref);
+//			deleted = em.contains(deletePref);
+//		}
+		return true;
 	}
 
 }

@@ -41,13 +41,10 @@
 		</c:choose>
 	</form>
 	<div>
-		<a href="add.do" class="btn btn-info" role="button">Add
-			a Prefecture</a>
+		<a href="add.do" class="btn btn-info" role="button">Add a
+			Prefecture</a>
 	</div>
-	<div>
-	<a href="updatePrefecture.do" class="btn btn-info" role="button">Update
-			a Prefecture</a>
-	</div>
+	
 
 
 </body>

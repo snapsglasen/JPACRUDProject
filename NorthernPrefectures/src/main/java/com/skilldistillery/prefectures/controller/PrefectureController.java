@@ -65,5 +65,15 @@ public class PrefectureController {
 		mv.setViewName("prefectureUpdated");
 		return mv;
 	}
+	
+	@RequestMapping(path = "deletePrefecture.do", method = RequestMethod.GET)
+	public String deletePrefecture(int id) {
+		Prefecture deletedPref = dao.findById(id);
+		dao.delete(deletedPref);
+	//	ModelAndView mv = new ModelAndView();
+	//	mv.addObject("deletedPref", dao.findById(id));
+	//	mv.setViewName("deletePrefecture");
+		return "deletePrefecture";
+	}
 
 }
