@@ -8,9 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+	<ul>
+		<li><a href="index.do">Home</a></li>
+	</ul>
 	<div class="container-fluid">
 		<div class="text-center">
-			
+
 			<h1>UPDATE Prefecture</h1>
 		</div>
 		<form action="updatePref.do" method="POST">

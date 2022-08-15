@@ -9,6 +9,10 @@
 </head>
 <body>
 
+<ul>
+    <li> <a href="index.do">Home</a>  </li>
+</ul>
+
 	<div class="container-fluid">
 		<div class="text-center">
 			<h1>ADD A PREFECTURE INTO DATABASE</h1>

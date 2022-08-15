@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<ul>
+		<li><a href="index.do">Home</a></li>
+	</ul>
 	<div>
 		<h1>Delete Successful</h1>
 

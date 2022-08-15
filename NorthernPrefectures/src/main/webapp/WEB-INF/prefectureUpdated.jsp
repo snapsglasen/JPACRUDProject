@@ -8,9 +8,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<ul>
+		<li><a href="index.do">Home</a></li>
+	</ul>
 
-	
-<div>
+	<div>
 		<h1>Prefecture Details</h1>
 		<h5>${updatedPref.name}</h5>
 		<ul>
